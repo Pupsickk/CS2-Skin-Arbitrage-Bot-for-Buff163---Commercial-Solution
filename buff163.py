@@ -211,42 +211,42 @@ def collect_data():
                         if skin['Износ'] < 0.0075:
                            ratio = 507 / skin['Цена']
                            print(f"  Проверка условия 1: износ < 0.1509, ratio={ratio:.2f}")
-                           if ratio > 1.24:
+                           if ratio > 1.27:
                               print(f"  Этот скин выгодный! (Износ < 0.1509, ratio = {ratio:.2f})")
                               skin["ratio"] = ratio
                               выгода.append(skin)
                     if skin['Износ'] < 0.011:
                        ratio = 455 / skin['Цена']
                        print(f"  Проверка условия 2: износ < 0.1524, ratio={ratio:.2f}")
-                       if ratio > 1.24:
+                       if ratio > 1.27:
                           print(f"  Этот скин выгодный! (Износ < 0.1524, ratio = {ratio:.2f})")
                           skin["ratio"] = ratio
                           выгода.append(skin)
                     if skin['Износ'] < 0.015:
                         ratio = 422 / skin['Цена']
                         print(f"  Проверка условия 3, ratio={ratio:.2f}")
-                        if ratio > 1.24:
+                        if ratio > 1.27:
                             print(f"  Этот скин выгодный! (Износ < 0.1544, ratio = {ratio:.2f})")
                             skin["ratio"] = ratio
                             выгода.append(skin)
                     if skin['Износ'] < 0.018:
                         ratio = 392 / skin['Цена']
                         print(f"  Проверка условия 4, ratio={ratio:.2f}")
-                        if ratio > 1.24:
+                        if ratio > 1.27:
                             print(f"  Этот скин выгодный! (Износ < 0.1555, ratio = {ratio:.2f})")
                             skin["ratio"] = ratio
                             выгода.append(skin)
                     if skin['Износ'] < 0.022:
                         ratio = 373 / skin['Цена']
                         print(f"  Проверка условия 5, ratio={ratio:.2f}")
-                        if ratio > 1.24:
+                        if ratio > 1.27:
                             print(f"  Этот скин выгодный! (Износ < 0.1568, ratio = {ratio:.2f})")
                             skin["ratio"] = ratio
                             выгода.append(skin)
                     # if skin['Износ'] < 0.1578:
                     #     ratio = 36.9 / skin['Цена']
                     #     print(f"  Проверка условия 6, ratio={ratio:.2f}")
-                    #     if ratio > 1.24:
+                    #     if ratio > 1.27:
                     #         print(f"  Этот скин выгодный! (Износ < 0.1578, ratio = {ratio:.2f})")
                     #         skin["ratio"] = ratio
                     #         выгода.append(skin)
@@ -258,35 +258,35 @@ def collect_data():
                         if skin['Износ'] < 0.002:
                             ratio = 438 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.159, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.159, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0043:
                             ratio = 351 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.1649, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1649, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.006:
                             ratio = 338 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.168, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.168, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.011:
                             ratio = 315 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.171, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.171, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.017:
                             ratio = 300 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.17, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.17, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -298,49 +298,49 @@ def collect_data():
                         if skin['Износ'] < 0.001:
                             ratio = 605 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.1513, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1513, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.003:
                             ratio = 538 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.1525, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1525, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.005:
                             ratio = 508 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.1538, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1538, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.009:
                             ratio = 480 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.1546, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1546, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.011:
                             ratio = 468 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.1556, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1556, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0135:
                             ratio = 454 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.1581, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1581, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.017:
                             ratio = 450 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.16, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.16, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -353,77 +353,77 @@ def collect_data():
                         if skin['Износ'] < 0.001:
                             ratio = 600 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0024:
                             ratio = 560 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0032:
                             ratio = 533 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.009, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.009, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)        
                         elif skin['Износ'] < 0.0047:
                             ratio = 502 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.009, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.009, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0062:
                             ratio = 481 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.009, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.009, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)        
                         elif skin['Износ'] < 0.0085:
                             ratio = 451 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.015, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.015, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.01:
                             ratio = 440 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.162, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.162, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0124:
                             ratio = 418 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.1645, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1645, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0144:
                             ratio = 408 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.166, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.166, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0162:
                             ratio = 400 / skin['Цена']
                             print(f"  Проверка условия 8: износ < 0.1683, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1683, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.02:
                             ratio = 380 / skin['Цена']
                             print(f"  Проверка условия 8: износ < 0.1683, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.1683, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)        
@@ -435,35 +435,35 @@ def collect_data():
                         if skin['Износ'] < 0.001:
                             ratio = 3710 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.0733, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0733, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0022:
                             ratio = 3200 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.0777, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0777, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0042:
                             ratio = 2777 / skin['Цена']     
                             print(f"  Проверка условия 3: износ < 0.081, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.081, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.005:
                             ratio = 2700 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0825, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0825, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0066:
                             ratio = 2540 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.0866, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0866, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -475,28 +475,28 @@ def collect_data():
                         if skin['Износ'] < 0.0022:
                             ratio = 35 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0032:
                             ratio = 32.55 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.0032, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0032, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0044:
                             ratio = 31 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.01:
                             ratio = 28 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.006, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.006, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)  
@@ -508,35 +508,35 @@ def collect_data():
                         if skin['Износ'] < 0.01:
                             ratio = 372 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.0015, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0015, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0126:
                             ratio = 340 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.0027, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0027, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0141:
                             ratio = 328 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.0038, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0038, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.018:
                             ratio = 303 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0046, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0046, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.023:
                             ratio = 280 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.0065, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0065, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -548,35 +548,35 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 75.3 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.0015, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0015, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 71 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.0025, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0025, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 66 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 60.5 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.007, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.007, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.095:
                             ratio = 55.4 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.0065, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0065, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -588,28 +588,28 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 680 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.0015, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0015, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 654 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.0022, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0022, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 636 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 614 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -620,28 +620,28 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 38.6 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.0015, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0015, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 36.8 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.0025, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0025, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 35.5 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})") 
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 34 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -653,42 +653,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 82.2 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.0015, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0015, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 77.6 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 74 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.0045, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0045, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 70 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.00599, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.00599, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.099:
                             ratio = 62 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.007, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.007, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.11:
                             ratio = 55 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.009, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.009, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -700,56 +700,56 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 127.2 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 122.2 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 118 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 112 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 107 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.099:
                             ratio = 99 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.011:
                             ratio = 93 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.01, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.01, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0199:
                             ratio = 81 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.01, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.01, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)        
@@ -761,28 +761,28 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 78 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 71.2 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 63 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 58.5 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -794,49 +794,49 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 110 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 104 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 98 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 92 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.095:
                             ratio = 87 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.099:
                             ratio = 80 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.11:
                             ratio = 65 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.01, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.01, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -848,42 +848,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 67.8 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 60 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 56 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 52 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.095:
                             ratio = 49 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 45.4 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -896,42 +896,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 102 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 95 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 91 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 85.5 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 81 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 76 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -942,49 +942,49 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 536 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 521 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 494 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 475 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 447 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 425 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.011:
                             ratio = 395 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.01, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.01, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)        
@@ -995,42 +995,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 102 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 95 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 91 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 85.5 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 81 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 76 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -1041,28 +1041,28 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 96 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 88 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 80 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 75 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -1073,35 +1073,35 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 92 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 83.7 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 77 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 69 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 81 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -1113,42 +1113,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 180 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 172 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 166 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 162 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 157 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 154 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -1160,28 +1160,28 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 140 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 135/ skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 132 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         # elif skin['Износ'] < 0.09:
                         #     ratio = 136 / skin['Цена']
                         #     print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                        #     if ratio > 1.24:
+                        #     if ratio > 1.27:
                         #         print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                         #         skin["ratio"] = ratio
                         #         выгода.append(skin)
@@ -1195,49 +1195,49 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 190 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 181 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 171 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 160 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.095:
                             ratio = 150 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 140 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.11:
                             ratio = 121 / skin['Цена']
                             print(f"  Проверка условия 7: износ < 0.01, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.01, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin) 
@@ -1248,42 +1248,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 654 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 600 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 582 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 570 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 557 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 540 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -1294,42 +1294,42 @@ def collect_data():
                         if skin['Износ'] < 0.075:
                             ratio = 571 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.08:
                             ratio = 548 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.085:
                             ratio = 538 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.09:
                             ratio = 527 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.95:
                             ratio = 511 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.0999:
                             ratio = 496 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)         
@@ -1340,63 +1340,63 @@ def collect_data():
                         if skin['Износ'] < 0.16:
                             ratio = 1955 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.17:
                             ratio = 1875 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.18:
                             ratio = 1785 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.19:
                             ratio = 1710 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.20:
                             ratio = 1630 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.21:
                             ratio = 1553 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                               
                         elif skin['Износ'] < 0.22:
                             ratio = 1470 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.23:
                             ratio = 1390 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.24:
                             ratio = 1310 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)     
@@ -1408,49 +1408,49 @@ def collect_data():
                         if skin['Износ'] < 0.16:
                             ratio = 1377 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.17:
                             ratio = 1307 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.18:
                             ratio = 1242 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.19:
                             ratio = 1192 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.20:
                             ratio = 1116 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.21:
                             ratio = 1064 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                               
                         elif skin['Износ'] < 0.22:
                             ratio = 971 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
@@ -1461,63 +1461,63 @@ def collect_data():
                         if skin['Износ'] < 0.16:
                             ratio = 2045 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.17:
                             ratio = 1963 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.18:
                             ratio = 1900 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.19:
                             ratio = 1824 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.20:
                             ratio = 1740 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.21:
                             ratio = 1664 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                               
                         elif skin['Износ'] < 0.22:
                             ratio = 1599 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.23:
                             ratio = 1526 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.24:
                             ratio = 1451 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)    
@@ -1528,63 +1528,63 @@ def collect_data():
                         if skin['Износ'] < 0.16:
                             ratio = 2056 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.17:
                             ratio = 1963 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.18:
                             ratio = 1900 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.19:
                             ratio = 1824 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.20:
                             ratio = 1787 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.21:
                             ratio = 1600 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                               
                         elif skin['Износ'] < 0.22:
                             ratio = 1500 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.23:
                             ratio = 1400 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.24:
                             ratio = 1300 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)  
@@ -1596,63 +1596,63 @@ def collect_data():
                         if skin['Износ'] < 0.16:
                             ratio = 3850 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.17:
                             ratio = 3733 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.18:
                             ratio = 3600 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.19:
                             ratio = 3500 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.20:
                             ratio = 3366 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.21:
                             ratio = 3273 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                               
                         elif skin['Износ'] < 0.22:
                             ratio = 3161 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.23:
                             ratio = 3051 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.24:
                             ratio = 2947 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                  
@@ -1664,63 +1664,63 @@ def collect_data():
                         if skin['Износ'] < 0.16:
                             ratio = 444 / skin['Цена']
                             print(f"  Проверка условия 1: износ < 0.001, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.001, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.17:
                             ratio = 431 / skin['Цена']
                             print(f"  Проверка условия 2: износ < 0.002, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.002, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.18:
                             ratio = 410 / skin['Цена']
                             print(f"  Проверка условия 3: износ < 0.003, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.003, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.19:
                             ratio = 385 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.20:
                             ratio = 362 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.21:
                             ratio = 338 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                               
                         elif skin['Износ'] < 0.22:
                             ratio = 318 / skin['Цена']
                             print(f"  Проверка условия 4: износ < 0.0040, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0040, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.23:
                             ratio = 296 / skin['Цена']
                             print(f"  Проверка условия 5: износ < 0.005, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.005, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)
                         elif skin['Износ'] < 0.24:
                             ratio = 280 / skin['Цена']
                             print(f"  Проверка условия 6: износ < 0.0075, ratio={ratio:.2f}")
-                            if ratio > 1.24:
+                            if ratio > 1.27:
                                 print(f"  Этот скин выгодный! (Износ < 0.0075, ratio = {ratio:.2f})")
                                 skin["ratio"] = ratio
                                 выгода.append(skin)                      
